@@ -2,7 +2,9 @@
 # Docker images can be inherited from other images. Therefore, instead of 
 # creating our own base image, we’ll use the official Node.js image that 
 # already has all the tools and packages that we need to run a Node.js application.
+snyk-fix-f494d27dcd7470e124d14053b2954b32
 FROM node:15.11.0-buster-slim
+main
 ENV NODE_ENV=production
 WORKDIR /Hello-Cloud-World
 COPY ["package.json", "package-lock.json*", "./"]
