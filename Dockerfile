@@ -6,7 +6,7 @@
 snyk-fix-3272df19cd58acb5f4fc3d1ab9f08b1d
 FROM node:current-buster-slim
 snyk-fix-f494d27dcd7470e124d14053b2954b32
-FROM node:15.11.0-buster-slim
+FROM node:15.14.0-buster-slim
 main
 
 main
